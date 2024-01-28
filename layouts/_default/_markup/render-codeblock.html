@@ -1,3 +1,5 @@
-<pre>
-    <code class="language-{{ .Type }}">{{ .Inner | safeHTML }}</code>
+<pre class="line-numbers">
+    <code class="{{with .Type }}language-{{ . }}{{ else }}language-text{{ end }}">
+        {{ .Inner | safeHTML }}
+    </code>
 </pre>
