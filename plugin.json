@@ -1,0 +1,9 @@
+{
+  "version": "0.1.0",
+  "title": "Prismjs for Micro.blog",
+  "description": "Use Prismjs for syntax highlighting on your Micro.blog hosted site.",
+  "includes": [
+    "/css/prism.css",
+    "/js/prism.js"
+  ]
+}
